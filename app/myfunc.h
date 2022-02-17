@@ -5,6 +5,8 @@ int myfunc(int b);
 
 int fibonachi(int num);
 
+double quadratic(double a, double b, double c);
+
 void printStdoutMessages();
 
 extern int val;
