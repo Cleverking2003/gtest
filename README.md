@@ -1,7 +1,7 @@
 [![CI/CD GitHub Actions](https://github.com/Cleverking2003/gtest/actions/workflows/test-action.yml/badge.svg)](https://github.com/cleverking2003/gtest/actions/workflows/test-action.yml)
-[![Coverage Status](https://coveralls.io/repos/Cleverking2003/gtest/badge.svg?branch=master)](https://coveralls.io/github/cleverking2003/gtest?branch=master)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Cleverking2003_gtest&metric=alert_status)](https://sonarcloud.io/dashboard?id=cleverking2003_gtest)
-[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Cleverking2003_gtest&metric=code_smells)](https://sonarcloud.io/dashboard?id=cleverking2003_gtest)
+[![Coverage Status](https://coveralls.io/repos/github/Cleverking2003/gtest/badge.svg?branch=main)](https://coveralls.io/github/Cleverking2003/gtest?branch=main)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Cleverking2003_gtest&metric=alert_status)](https://sonarcloud.io/dashboard?id=Cleverking2003_gtest)
+[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Cleverking2003_gtest&metric=code_smells)](https://sonarcloud.io/dashboard?id=Cleverking2003_gtest)
 
 # Пример работы связки Qt + Google Test (gtest) + QtCreator
 
