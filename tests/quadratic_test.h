@@ -5,7 +5,7 @@
 #include <math.h>
 
 extern "C" {
-#include "myfunc.h"
+#include "quadratic.h"
 }
 
 TEST(quadraticTest2, noRoots) {

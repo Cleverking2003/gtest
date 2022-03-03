@@ -1,4 +1,4 @@
-#include "myfunc.h"
+#include "quadratic.h"
 #include <stdio.h>
 #include <math.h>
 
