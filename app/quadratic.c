@@ -5,7 +5,6 @@
 double quadratic(double a, double b, double c) {
     int d = b*b-4*a*c;
     if (d < 0) {
-        printf("Корней не существует!");
         return NAN;
     }
     int root = (-b + sqrt(d)) / (2*a);
