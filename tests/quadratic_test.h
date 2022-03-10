@@ -8,9 +8,14 @@ extern "C" {
 #include "quadratic.h"
 }
 
-TEST(quadraticTest2, noRoots) {
+TEST(quadraticTest, noRoots) {
     ASSERT_TRUE(isnan(quadratic(1, 1, 1)));
     ASSERT_TRUE(isnan(quadratic(1, 1, 2)));
+}
+
+TEST(quadraticTest, wrongParams) {
+    ASSERT_TRUE(isnan(quadratic(0, 5, 4)));
+    ASSERT_TRUE(isnan(quadratic(0, 0, 3)));
 }
 
 TEST(quadraticTest, roots) {

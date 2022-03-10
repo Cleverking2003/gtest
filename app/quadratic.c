@@ -3,6 +3,7 @@
 #include <math.h>
 
 double quadratic(double a, double b, double c) {
+    if (a == 0) return NAN;
     int d = b*b-4*a*c;
     if (d < 0) {
         return NAN;
