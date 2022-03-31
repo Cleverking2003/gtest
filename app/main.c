@@ -4,6 +4,7 @@
 
 int main()
 {
-    printf("%lf\n", quadratic(1, 2, 1));
+    double x1, x2;
+    printf("%d\n", quadratic(1, 2, 1, &x1, &x2));
     return 0;
 }

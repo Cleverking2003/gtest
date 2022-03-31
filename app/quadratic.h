@@ -1,6 +1,6 @@
 #ifndef QUADRATIC_H
 #define QUADRATIC_H
 
-double quadratic(double a, double b, double c);
+int quadratic(double a, double b, double c, double *x1, double *x2);
 
 #endif // QUADRATIC_H
