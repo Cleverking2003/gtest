@@ -7,7 +7,7 @@ int quadratic(double a, double b, double c, double *x1, double *x2) {
 	*x1 = *x2 = NAN;
         return 0;
     }
-    int d = b*b-4*a*c;
+    double d = b*b-4*a*c;
     if (d < 0) {
         *x1 = *x2 = NAN;
 	return 0;
